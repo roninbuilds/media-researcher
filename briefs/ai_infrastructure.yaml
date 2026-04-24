@@ -1,0 +1,20 @@
+# Brief: AI Infrastructure / Developer Tools company launch
+# Use case: A Series B startup building a vector database / AI infrastructure
+# tool wants podcast appearances and journalist coverage for their launch.
+
+target_type: mixed
+topic: "AI infrastructure, vector databases, developer tools, MLOps, LLMOps, Postgres"
+audience_constraints:
+  min_downloads: 2000          # podcasts: minimum 2k monthly downloads
+  max_downloads: 300000        # avoid podcasts that are too large to respond
+  min_readers: null
+  max_readers: null
+recency_days: 60               # only targets who've published/released in last 60 days
+geo_filter: null               # worldwide
+language: "en"
+num_results: 25
+depth: deep                    # full pitch angles for each target
+extra_notes: >
+  Prioritise shows and writers who cover open-source, developer experience,
+  and infrastructure. Avoid pure consumer-tech outlets. Founder is available
+  for 45-min podcast interviews and can provide technical deep-dives.

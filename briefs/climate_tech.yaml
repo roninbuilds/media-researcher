@@ -1,0 +1,22 @@
+# Brief: Climate tech / clean energy podcast outreach
+# Use case: A climate-tech startup (grid-scale battery storage) wants to identify
+# relevant podcasts for thought leadership appearances.
+
+target_type: podcasts
+topic: "climate tech, clean energy, grid storage, battery technology, energy transition, cleantech VC"
+audience_constraints:
+  min_downloads: 1000          # small shows are more approachable — include them
+  max_downloads: 200000
+  min_readers: null
+  max_readers: null
+recency_days: 90               # active in last 3 months
+geo_filter: null               # English-language worldwide
+language: "en"
+num_results: 20
+depth: deep                    # generate tailored pitch angles
+extra_notes: >
+  The CEO is a former grid operator with 15 years of utility experience.
+  Prioritise shows that go deep on energy policy, grid modernisation,
+  and climate VC — not surface-level "green" lifestyle shows. Include
+  both well-known shows (My Climate Journey/MCJ, Catalyst) and emerging
+  independent shows that cover energy infrastructure.

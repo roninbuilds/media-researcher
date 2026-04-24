@@ -1,0 +1,20 @@
+# Brief: Fintech startup — embedded finance / BaaS launch
+# Use case: A fintech startup launching an embedded banking-as-a-service product
+# wants journalist coverage in business and fintech publications.
+
+target_type: journalists
+topic: "fintech, embedded finance, banking-as-a-service, BaaS, neobank, payments, financial infrastructure"
+audience_constraints:
+  min_downloads: null
+  max_downloads: null
+  min_readers: 100000          # publications with at least 100k monthly readers
+  max_readers: null
+recency_days: 45               # journalist must have published on fintech in last 45 days
+geo_filter: "US"               # US-based journalists only
+language: "en"
+num_results: 15
+depth: medium                  # recent article summaries, no pitch angle generation
+extra_notes: >
+  Focus on journalists who cover Series A/B fintech rounds and new product
+  launches. Forbes Finance Council, TechCrunch Fintech, and The Block are
+  relevant beats. Avoid crypto-only writers.
