@@ -37,9 +37,9 @@ class MarkdownFormatter:
 
         # ⚠️ Critical notice
         sections.append(
-            "> **IMPORTANT:** This report is for human review only. "
-            "Do not send outreach using this data without verifying it yourself. "
-            "This skill does NOT send messages on your behalf."
+            "> **Next step:** Run `media-researcher outreach --report <this-file.json>` "
+            "to send contact requests via TinyFish. You will see a preview and must "
+            "type `SEND` to confirm before anything is submitted."
         )
 
         # Summary table (top 10)

@@ -3,7 +3,7 @@
 A research skill that takes a structured brief and produces a prioritised,
 enriched list of media targets (podcasts, journalists, publications).
 
-> **This skill produces research only. It does not send outreach.**
+> **Two-step workflow:** `media-researcher run` researches and scores targets → `media-researcher outreach` sends contact requests via TinyFish.
 
 ---
 

@@ -115,15 +115,17 @@ details in full.
 
 ## Hard Rules
 
-> **This skill produces research only.** The agent MUST NOT:
-> - Draft outreach emails to anyone in the output list.
-> - Send messages on the user's behalf.
-> - Store contact data beyond the current session unless the user explicitly
->   opts into a persistent contact database.
+> **Two commands, two jobs:**
+> - `media-researcher run` — research only. Produces a report. Nothing is sent.
+> - `media-researcher outreach` — sends contact requests via TinyFish after explicit human confirmation (user must type `SEND`).
 >
-> If the user asks to "send this to all of them" or "draft an email to #3",
-> redirect them: *"This skill is for research only. To draft or send outreach,
-> please invoke the outreach skill explicitly."*
+> The agent MUST NOT:
+> - Send outreach autonomously without running the `outreach` command.
+> - Skip the confirmation step or bypass the `SEND` gate.
+> - Store contact data beyond the current session unless the user explicitly opts into a persistent contact database.
+>
+> If the user asks to "send this to all of them" without having run `outreach`, guide them:
+> *"Run `media-researcher outreach --report <path>` — it will show you a preview and ask you to confirm before anything is sent."*
 
 ---
 
